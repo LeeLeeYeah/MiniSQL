@@ -1,0 +1,40 @@
+drop table student; 
+drop table teacher;
+create table student (
+		sno char(8),
+		sname char(16) unique,
+		sage int,
+		sgender char (1),
+		primary key ( sno )
+);
+create table student (
+		sno char(8),
+		sname char(16) unique,
+		sage int,
+		sgender char (1),
+		primary key ( sno )
+);
+
+create table teacher(sno char(8),
+		sname char(16) unique,
+		sage int,
+		sgender char (1),
+		primary key ( sno )
+);
+create table teacher(sno char(8),
+		sname char(256) unique,
+		sage int,
+		sgender char (1),
+		primary key ( sno )
+);create table teacher2(sno char(8),
+		sname char(256) unique,
+		sage int,
+		sgender char (1),
+		primary key ( ss )
+);
+create table teach(sno char(8),
+		sname char(8) unique,
+		sname int,
+		sgender char (1),
+		primary key ( sno )
+);

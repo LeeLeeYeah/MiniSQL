@@ -1,0 +1,8 @@
+delete from t2 where num1>num2;
+delete from t2;
+
+delete from t1 where id>7;
+delete from t1 where id<=2;
+delete from t1 where id<4 and salary >3000.00;
+
+delete from t1 where salary >3000 or age >24;

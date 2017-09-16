@@ -1,0 +1,3 @@
+create index ind_stu2_name on student2(name);
+create index ind_stu2_id on student2(id);
+quit;

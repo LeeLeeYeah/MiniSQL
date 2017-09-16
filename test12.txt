@@ -1,0 +1,7 @@
+select a_name from author where a_id>35;
+select * from author where a_name <'naae';
+select * from author where a_name <'naat' and a_id<3;
+
+delete from author where a_name >'nnae';
+delete from author where a_name <'naba';
+

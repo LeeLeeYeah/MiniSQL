@@ -1,0 +1,13 @@
+drop table aaa;
+create table aaa (
+		sno char(8),
+		sname char(16) unique,
+		sage int,
+		sgender char (1),
+		smoney float,
+		primary key ( sno )
+);
+create index ab on aaa(sname); drop index ab; 
+insert into aaa values
+('33333333','abababababababab',18,m,4.5);
+delete from aaa;

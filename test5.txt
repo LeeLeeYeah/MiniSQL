@@ -1,0 +1,7 @@
+select id , name,age, salary from t1;
+select name,salary from t1;
+
+select id , name from t1 where id>=6;
+select id , name from t1 where name>='Queen';
+select id , name from t1 where salary<2000.00;
+select id , name from t1 where salary >4000.00 and name<>'Jim';
